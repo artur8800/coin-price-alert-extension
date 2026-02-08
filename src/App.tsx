@@ -1,11 +1,13 @@
-import './App.css'
+import "./App.css";
+import { Button } from "./components/ui/button";
 
-function App() { // start bilding your popup app here 
+function App() {
+  // start bilding your popup app here
   return (
     <h1 className="text-3xl text-center font-bold underline">
-      Hello world!
+      <Button>test</Button>
     </h1>
-  )
+  );
 }
 
-export default App
+export default App;
